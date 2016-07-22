@@ -17,6 +17,7 @@ The array of analytics.js events for which you would like this integration to fi
 Supported events are: 
 
 - Bid on Item
+- Email Sign Up
 
 For example, if you specify 'Bid on Item' for this configuration option, calling analytics.track('Bid on Item') on your website will fire this integration.
 

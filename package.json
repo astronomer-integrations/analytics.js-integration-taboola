@@ -1,7 +1,7 @@
 {
   "name": "analytics.js-integration-taboola",
   "description": "The Taboola analytics.js integration.",
-  "author": "alois@astronomer.io",
+  "author": "mike@astronomer.io",
   "license": "MIT",
   "main": "lib/index.js",
   "version": "1.0.0",

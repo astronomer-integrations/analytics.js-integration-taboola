@@ -1,7 +1,7 @@
 {
-  "name": "",
-  "repo": "",
-  "description": "The Blueshift analytics.js integration.",
+  "name": "analytics.js-integration-taboola",
+  "repo": "https://github.com/astronomerio/analytics.js-integration-taboola.git",
+  "description": "The Taboola analytics.js integration.",
   "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",

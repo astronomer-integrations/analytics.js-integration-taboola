@@ -11,13 +11,14 @@ module.exports = function(config) {
 
     frameworks: ['browserify', 'mocha'],
 
-    reporters: ['spec', 'coverage'],
+    reporters: ['progress', 'spec', 'coverage'],
 
     preprocessors: {
       'test/**/*.js': 'browserify'
     },
 
     client: {
+      captureConsole: true,
       mocha: {
         grep: process.env.GREP,
         reporter: 'html',

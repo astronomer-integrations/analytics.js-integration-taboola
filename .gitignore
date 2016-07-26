@@ -1,5 +1,4 @@
 *.log
 .DS_Store
-build.js
-components
 node_modules
+coverage

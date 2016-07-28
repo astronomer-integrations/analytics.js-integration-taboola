@@ -1,0 +1,10 @@
+{
+  "name": "analytics.js-integration-segmentio",
+  "repo": "segment-integrations/analytics.js-integration-segmentio",
+  "description": "The Segmentio analytics.js integration.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "development": {}
+}

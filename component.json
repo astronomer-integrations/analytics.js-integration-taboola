@@ -5,6 +5,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "segmentio/analytics.js-integration": "^1.1.0"
+  },
   "development": {}
 }

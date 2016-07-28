@@ -16,21 +16,9 @@ TESTS = $(shell find test -type f -name "*.test.js")
 SUPPORT = $(wildcard karma.conf*.js)
 ALL_FILES = $(LIBS) $(TESTS) $(SUPPORT)
 
-DUOT_ARGS = \
-			--reporter spec \
-			--port $(PORT) \
-			--commands "make build"
-
 ##
 # Program options/flags
 ##
-
-build.js: node_modules component.json $(LIBS) $(TESTS)
-		@$(DUO) --stdout --development $(TESTS) > $@
-
-# Build shortcut.
-build: build.js
-.DEFAULT_GOAL = build
 
 # A list of options to pass to Karma
 # Overriding this overwrites all options specified in this file (e.g. BROWSERS)
@@ -81,7 +69,7 @@ fmt: install
 .PHONY: fmt
 
 # Run browser unit tests in a browser.
-test-browser: node_modules build.js
+test-browser: install
 	@$(KARMA) start $(KARMA_FLAGS) $(KARMA_CONF)
 
 # Default test target.

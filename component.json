@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
-    "segmentio/analytics.js-integration": "^1.1.0"
+    "segmentio/analytics.js-integration": "^1.1.0",
+    "lodash": "^4.14.0"
   },
   "development": {}
 }

@@ -1,5 +1,5 @@
 {
-  "name": "analytics.js-integration-taboola",
+  "name": "@astronomerio/analytics.js-integration-taboola",
   "description": "The Taboola analytics.js integration.",
   "author": "mike@astronomer.io",
   "license": "MIT",
